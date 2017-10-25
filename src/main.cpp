@@ -3,7 +3,6 @@
 #include "fftwrap.h"
 #include "labcolor.h"
 #include "hdrwrite.h"
-#if 1
 int sz=256;
 Array2D<Vec2f> mainIn(sz, sz);
 Array2D<Vec2f> mainInBackup(sz, sz);
@@ -366,4 +365,3 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,i
 
 	}
 }
-#endif
